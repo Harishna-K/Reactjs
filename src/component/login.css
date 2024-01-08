@@ -1,0 +1,36 @@
+#paper{
+    background-image: url("C:\Users\SighSpectrum\Pictures\poo.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hari{
+    background-image: url("C:\Users\SighSpectrum\Pictures\poo.jpg");
+    /* background-repeat: no-repeat; */
+    background-position: center;
+    /* background-size: cover; */
+
+}
+/* #h{
+   color: azure;
+    font-weight: bold;
+}
+#i{
+  color: brown;
+    font-weight: bold;
+}
+#sl{
+  
+    font-weight: bold;
+}
+#name{
+   
+    font-weight: bold; */
+
+/* #home,#nopage,#blogs,#contact{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:3rem;
+    height:90vh;
+} */
