@@ -11,7 +11,7 @@
     /* background-size: cover; */
 
 }
-/* #h{
+#h{
    color: azure;
     font-weight: bold;
 }
@@ -25,12 +25,12 @@
 }
 #name{
    
-    font-weight: bold; */
-
-/* #home,#nopage,#blogs,#contact{
+    font-weight: bold; 
+}
+#home,#nopage,#blogs,#contact{
     display:flex;
     justify-content:center;
     align-items:center;
     font-size:3rem;
     height:90vh;
-} */
+}

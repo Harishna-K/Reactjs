@@ -1,5 +1,5 @@
 import { useState } from 'react';
-function UseCounter() {
+function UseCot() {
   const [count, setCount] = useState(0);
 
   const countHandler = () => {
@@ -12,4 +12,4 @@ function UseCounter() {
   };
 }
 
-export default UseCounter;
+export default UseCot;
