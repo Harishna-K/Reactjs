@@ -1,15 +1,14 @@
 #paper{
-    background-image: url("C:\Users\SighSpectrum\Pictures\poo.jpg");
+    background-image: url("C:\Users\Sightspectrum\Pictures\bg.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .hari{
-    background-image: url("C:\Users\SighSpectrum\Pictures\poo.jpg");
-    /* background-repeat: no-repeat; */
+    background-image: url("C:\Users\Sightspectrum\Pictures\bg.jpg");
     background-position: center;
-    /* background-size: cover; */
-
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 #h{
    color: azure;
@@ -20,7 +19,7 @@
     font-weight: bold;
 }
 #sl{
-  
+    
     font-weight: bold;
 }
 #name{

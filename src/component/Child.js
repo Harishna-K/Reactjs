@@ -1,13 +1,11 @@
-import React from "react";
-import Pparent from "./Pparent";
-const Child = (props) => {
-  return (
-    <div>
-      <button onClick={ () => props.newMessage("new message") }>
-        Update message
-      </button>
-    </div>
-  );
-}
+// 
 
-export default Child;
+import React, { useContext } from 'react';
+import {ThemeContext} from './ThemedComponent'
+
+function ThemedComponent() {
+  const theme = useContext(ThemeContext);
+
+  return <div style={{ background: theme.background, color: theme.text }}>Themed Content</div>;
+}
+export default ThemedComponent

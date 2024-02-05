@@ -1,34 +1,35 @@
-
-// /*import ReactDOM from "react-dom/client";
 // import { BrowserRouter, Routes, Route } from "react-router-dom";
 // import Home from "./component/Home";
-// import Blogs from "./pages/Blogs";
-// import Contact from "./pages/Contact";
-// import NoPage from "./pages/NoPage";
-// import Login from './component/login';
-// import React from "react";
-// import List from "./component/list";
+// import Homen from "./component/homen.js";
+// import Login from './component/login.js';
+// import Signinf from "./component/Usingfarmic/Singinf.js";
+// import About from "./component/about.js";
+// import Products from "./component/products.js";
+// import Review from "./component/review.js";
+// import Contact from "./component/Contact.js";
+// // import Navigation from "./component/Navigation.js";
 // const App = () => {
 //   return (
 //     <div>
-// <Login/>
+
 // <BrowserRouter>
 //       <Routes>
-//         <Route path="/" element={<Login/>}></Route>
-//           <Route path= "/Home/:names" element={<Home/>} />
-//            <Route path="blogs" element={<Blogs />} />
-//           <Route path="contact" element={<Contact />} />
-//           <Route path="*" element={<NoPage />} /> 
+//           <Route path="/" element={<Login/>}></Route>
+//           <Route path="/Home/:names" element={<Home />} />
+//           <Route path="/Signinf/" element={<Signinf/>}/>
+//           <Route path="/home/" element={<Homen/>} />
+//           <Route path="/about/" element={<About />} />
+//           <Route path="/products/" element={<Products/>} />  
+//           <Route path="/review/"  element={<Review/>}/>
+//           <Route path="/Contact/" element={<Contact/>}/>
 //       </Routes>
 //     </BrowserRouter> 
-//     <List/>
 //     </div>
 //   );
 // }
-
 // export default App;
 
-
+/*
 // import SampleRenderProps from './component/RenderPropsComponent';
 
 // function App{
@@ -228,28 +229,34 @@
 
 
 // import React from "react";
+// import PostDataForm from "./component/mockapi";
 
 // const Form = () => {
 //     return (
-//         <form>
-//             <input placeholder="Email" />
-//             <input placeholder="Password" type="password" />
-//             <button type="submit">Sign in</button>
-//         </form>
+//         <PostDataForm/>
 //     );
 // };
 
 // export default Form;
 
-import React from 'react';
-import Pparent from './component/Pparent';
 
+import React from 'react'
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Atslog from './component/ATS PROJECT/Atslog.js'
+import Register from './component/ATS PROJECT/Register.js';
 const App = () => {
   return (
     <div>
- <Pparent/>
+      <BrowserRouter>
+       <Routes>
+         <Route path="/" element={<Atslog/>}></Route>
+         <Route path="/Register" element={<Register/>}/>
+          {/* <Route path="/welcome/:name" element={<Home/>}/> */}
+         </Routes>
+       
+    </BrowserRouter>
+   
     </div>
-  );
+  )
 }
-
-export default App;
+export default App
