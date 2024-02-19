@@ -240,23 +240,36 @@
 // export default Form;
 
 
-import React from 'react'
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Atslog from './component/ATS PROJECT/Atslog.js'
-import Register from './component/ATS PROJECT/Register.js';
-const App = () => {
-  return (
-    <div>
-      <BrowserRouter>
-       <Routes>
-         <Route path="/" element={<Atslog/>}></Route>
-         <Route path="/Register" element={<Register/>}/>
-          {/* <Route path="/welcome/:name" element={<Home/>}/> */}
-         </Routes>
-       
-    </BrowserRouter>
+// import React from 'react'
+// import { BrowserRouter, Routes, Route } from "react-router-dom";
+// import Atslog from './component/ATS PROJECT/Atslog'
+// import Register from './component/ATS PROJECT/Register';
+// const App = () => {
+//   return (
+//     <div>
+//       <BrowserRouter>
+//        <Routes>
+//          <Route path="/" element={<Atslog/>}></Route>
+//          <Route path="/Register" element={<Register/>}/>
+//          </Routes>
+      
+//     </BrowserRouter>
    
-    </div>
+//     </div>
+//   )
+// }
+// export default App
+
+import React from 'react'
+import SignUpForm from './component/practice project/Signupform'
+
+function App(){
+  return (
+   <SignUpForm/>
   )
 }
+
 export default App
+
+
+
